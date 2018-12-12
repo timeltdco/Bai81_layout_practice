@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/coder"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Xin chào các bạn, mình là Newbee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Nhập email để đăng ký theo dõi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_gravity="center"
+            android:text="Đăng ký theo dõi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#4383ba"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+
+        >
+        <ImageView
+
+            android:src="@drawable/facebook"
+            android:layout_width="150dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:text="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_gravity="center"
+        android:text="@string/forgot_password"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <TextView
+    android:layout_marginBottom="20dp"
+    android:layout_centerInParent="true"
+    android:layout_alignParentBottom="true"
+    android:textColor="#fff"
+    android:text="@string/sign_up"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+</RelativeLayout>
